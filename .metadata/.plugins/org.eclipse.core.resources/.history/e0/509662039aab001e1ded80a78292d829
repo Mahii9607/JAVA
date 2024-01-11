@@ -1,0 +1,13 @@
+//This is my first java program
+package com.jbk;
+
+class Student {
+
+	public static void main(String[] args) {
+		
+		System.out.println("This is my First Program");
+		System.out.println("age=22");
+		System.out.println("location=Pune");
+	}
+
+}

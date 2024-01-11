@@ -1,0 +1,28 @@
+package com.jbk;
+
+//Student has age , location and phone.The phone has a landline number and and many phone numbers
+class Student1 {
+	
+	public static void main(String[] args) {
+
+	int age;
+	String location;
+	Phone phone;   //user defined variable
+	               //Aggregation
+	System.out.println("Age=24");
+	System.out.println("Location=Pune");
+	System.out.println("ph=9322451426");
+	
+}
+	
+      //if java datatypes are not useful create our own datatype
+class Phone{
+	
+	int landline;
+	int ph;
+	
+	
+	
+}
+
+}

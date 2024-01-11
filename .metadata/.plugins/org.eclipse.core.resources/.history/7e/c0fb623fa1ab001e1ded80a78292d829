@@ -1,0 +1,12 @@
+package com.jbk;
+
+public class JBK1 {
+public static void main(String[] args) {
+	char Name;
+	int Roll;
+	
+	System.out.println("Name=Mahesh");
+	System.out.println("Roll=48");
+	
+	}
+}

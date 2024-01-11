@@ -1,0 +1,11 @@
+package com.jbk;
+
+public class Student {
+
+	public static void main(String[] args) {
+		int age;
+		char location;
+
+	}
+
+}

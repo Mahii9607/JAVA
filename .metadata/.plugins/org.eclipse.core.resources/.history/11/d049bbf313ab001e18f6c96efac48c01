@@ -1,0 +1,10 @@
+package com.jbk;
+
+//Student has age and location
+
+class Student{
+	
+	int age;
+	string location;
+	
+}

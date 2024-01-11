@@ -1,0 +1,46 @@
+package com.companyname.arithmetic;
+
+public class ArithmeticOperations {
+    
+    public void performAddition(int operand1, int operand2) {
+        int result = operand1 + operand2;
+        System.out.println("Addition Result: " + result);
+    }
+
+    public void performSubtraction(int operand1, int operand2) {
+        int result = operand1 - operand2;
+        System.out.println("Subtraction Result: " + result);
+    }
+
+    public void performMultiplication(int operand1, int operand2) {
+        int result = operand1 * operand2;
+        System.out.println("Multiplication Result: " + result);
+    }
+
+    public void performDivision(int operand1, int operand2) {
+        if (operand2 != 0) {
+            int result = operand1 / operand2;
+            System.out.println("Division Result: " + result);
+        } else {
+            System.out.println("Cannot divide by zero.");
+        }
+    }
+
+    public void performModulus(int operand1, int operand2) {
+        if (operand2 != 0) {
+            int result = operand1 % operand2;
+            System.out.println("Modulus Result: " + result);
+        } else {
+            System.out.println("Cannot calculate modulus with zero divisor.");
+        }
+    }
+
+    public static void main(String[] args) {
+        ArithmeticOperations arithmetic = new ArithmeticOperations();
+        arithmetic.performAddition(10, 20);
+        arithmetic.performSubtraction(100, 20);
+        arithmetic.performMultiplication(20, 10);
+        arithmetic.performDivision(30, 2);
+        arithmetic.performModulus(70, 90);
+    }
+}

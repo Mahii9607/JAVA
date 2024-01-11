@@ -1,0 +1,88 @@
+package com.jbk;
+//Write a program of all Arithmetic Operation
+public class Arithmetic {
+	
+	void add(int a , int b) {
+	 
+	int c = a+b;
+	System.out.println("🏷Arithmetic Operations  ");
+	
+	
+	System.out.println("Addition is  : "+c);
+	}
+
+
+
+void sub(int a , int b) {
+	int c = a-b;
+	System.out.println("Substraction is  : "+c);
+	
+}
+
+
+void mul(int a , int b) {
+	int c = a*b;
+	System.out.println("Multiplication is  : "+c);
+	
+}
+
+
+void div(int a , int b) {
+	int c = a*b;
+	System.out.println("Division is  : "+c);
+	
+}
+
+
+void mod(int a , int b) {
+	int c = a%b;
+	System.out.println("Percentage is  : "+c);
+	
+}
+
+void plusEqual(int a , int b) {
+	int c = a+=b;
+	System.out.println("Answer is  : "+c);
+	
+}
+
+
+void minusEqual(int a , int b) {
+	int c = a-=b;
+	System.out.println("Answer is  : "+c);
+	
+}
+
+
+void mulEqual(int a , int b) {
+	int c = a*=b;
+	System.out.println("Answer is  : "+c);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public static void main(String[] args) {
+	Arithmetic s = new Arithmetic();
+	s.add(10,20);
+	s.sub(100,20);
+	s.mul(20, 10);
+	s.div(30, 2);
+	s.mod(10, 30);
+	s.plusEqual(22, 30);
+	s.minusEqual(40, 10);
+	s.mulEqual(10, 50);
+}
+
+}

@@ -1,0 +1,14 @@
+package com.jbk;
+
+ class Main {
+
+	public static void main(String[] args) {
+		
+		String Mahesh;
+		String Rohan;
+		
+		System.out.println(args[1]);	
+		
+	}
+
+}

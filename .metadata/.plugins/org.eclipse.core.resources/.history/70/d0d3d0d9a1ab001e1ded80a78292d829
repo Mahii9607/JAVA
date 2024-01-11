@@ -1,0 +1,20 @@
+package com.jbk;
+
+class SwapNum{
+    void swap(int num1, int num2){
+        System.out.println("Before swap num1 = "+num1);
+        System.out.println("Before swap num2 = "+num2);
+        num2 = num2 + num1;
+        num1 = num2 - num1;
+        num2 = num2 - num1;
+        System.out.println("After swap num1 = "+num1);
+        System.out.println("After swap num2 = "+num2);
+    }
+}
+
+class Main{
+    public static void main(String s[]){
+         SwapNum ob = new SwapNum();
+         ob.swap(2,1);
+    }
+}
